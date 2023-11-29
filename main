@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="icon.png">
     <title>GET PET BACK</title>
   </head>
   <body>
@@ -27,16 +28,16 @@
                 </ul>
         
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                  <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-                </form>
-        
-                <div class="text-end">
-                  <button type="button" class="btn text-center text-black p-3 mb-2 bg-warning">Войти</button>
-                  <button type="button" class="btn text-center text-black p-3 mb-2 bg-warning">Зарегистрироваться</button>
-                </div>
-              </div>
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                  </form>
+                  <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Войти</button>
+                    <button type="button" class="btn btn-warning">Зарегистрироваться</button>
+                  </div>
+                  </div>
             </div>
           </header>
+          <main>
           <h2 class="text-center p-3 mb-0 text-warning">Найденные животные</h2>
           <div id="carouselExampleIndicators" class="carousel slide m-auto bg-success bg-warning w-75 p-2" data-bs-ride="carousel" style="min-height: 300px;">
             <div class="carousel-indicators">
@@ -128,9 +129,9 @@
     
 
 
-    <div class="container">
+</body>
         <footer class="py-3 my-4 text-bg-dark">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <ul class="nav justify-content-center">
             <li><a href="#" class="nav-link px-2 text-white" >Главная</a></li>
             <li><a href="#" class="nav-link px-2 text-white">Личный кабинет</a></li>
             <li><a href="#" class="nav-link px-2 text-white">Регистрация</a></li>
@@ -140,8 +141,9 @@
           <p class="text-secondary p-3 text-center ">GET PET BACK © Copyright, 2022</p>
           <p class="text-secondary p-3 text-center">Все права защищены</p>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      </div>
 
-  </body>
+
+
   </html>
       
+
